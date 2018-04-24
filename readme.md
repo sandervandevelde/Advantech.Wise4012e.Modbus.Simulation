@@ -1,4 +1,4 @@
-﻿# Advantech Wise4012e Modbus Simulation
+# Advantech Wise4012e Modbus Simulation
 
 Application which simulates an Advantech Wise 4012e IO module. The application is written in .Net Core.
 
@@ -17,7 +17,20 @@ It runs a Modbus service at [127.0.0.1] (configurable):
 
 Compile and run this application in [Visual studio Code](https://code.visualstudio.com/).
 
-You can read and write Modbus using this simulation in Modbus clients like [CAS Modbus Scanner](http://store.chipkin.com/articles/modbus-scanner-what-is-the-cas-modbus-scanner) or [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/deploy-modbus-gateway).
+This is a .Net Core application so be aware of the following steps:
+
+1. Open the solution in VS Code. Accept any suggestions regarding debugger and packages.
+2. Compile the application
+
+    *Note*: the Debug Console is read-only. We will need to rus the app outside VS Code.
+
+3. Go to \bin\Debug\netcoreapp2.0 folder where you will find the \bin\Debug\netcoreapp2.0\Advantech.Wise4012e.Modbus.SimulationApp.dll
+
+    *Note*: Do not expect an executable.
+
+4. run the dll using the command 'dotnet Advantech.Wise4012e.Modbus.SimulationApp.dll'.
+
+You can now read and write Modbus using this simulation in Modbus clients like [CAS Modbus Scanner](http://store.chipkin.com/articles/modbus-scanner-what-is-the-cas-modbus-scanner) or [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/deploy-modbus-gateway).
 
 ![alt tag](img/simulation.jpg)
 
@@ -34,11 +47,15 @@ Just enter:
 * 40001 0-4500 (pick a value between 0 and 4500)
 * 40002 0-4500 (pick a value between 0 and 4500)
 
+## NModbus4 library
+
+This simulation is making use of the Nuget package [NModbus4](https://github.com/NModbus4/NModbus4). Great work!
+
 ## Contribute
 
 This logic is licenced under the MIT license.
 
 Want to contribute? Throw me a pull request....
 
-Want to know more about me? Check out my (blog)[http://blog.vandevelde-online.com]
+Want to know more about me? Check out my [blog](http://blog.vandevelde-online.com)
 
