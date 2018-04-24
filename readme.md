@@ -44,5 +44,5 @@ This logic is licenced under the MIT license.
 
 Want to contribute? Throw me a pull request....
 
-Want to know more about me? Check out my (blog)[http://blog.vandevelde-online.com]
+Want to know more about me? Check out my [blog](http://blog.vandevelde-online.com)
 
