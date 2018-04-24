@@ -51,7 +51,7 @@ namespace Advantech.Wise4012e.Modbus.SimulationApp
 
             while (true)
             {
-                Console.WriteLine($"> {slave.DataStore.CoilDiscretes[1]} {slave.DataStore.CoilDiscretes[2]} {slave.DataStore.CoilDiscretes[17]} {slave.DataStore.CoilDiscretes[18]} {slave.DataStore.HoldingRegisters[1]:0000} {slave.DataStore.HoldingRegisters[2]:0000} - Write '1 [bit]' '2 [bit]' '40001 [int]' '40002 [int]' or Q to exit");
+                Console.WriteLine($"> {slave.DataStore.CoilDiscretes[1]} {slave.DataStore.CoilDiscretes[2]} {slave.DataStore.CoilDiscretes[17]} {slave.DataStore.CoilDiscretes[18]} {slave.DataStore.HoldingRegisters[1]:0000} {slave.DataStore.HoldingRegisters[2]:0000} - Write '1 [bit]' '2 [bit]' '17 [bit]' '18 [bit]' '40001 [int]' '40002 [int]' or Q to exit");
                 Console.Write("> ");
 
                 var input = Console.ReadLine();
@@ -71,6 +71,14 @@ namespace Advantech.Wise4012e.Modbus.SimulationApp
 
                     case "2":
                         slave.DataStore.CoilDiscretes[2] = Convert.ToBoolean(Convert.ToInt16(fields[1]));
+                        break;
+
+                    case "17":
+                        slave.DataStore.CoilDiscretes[17] = Convert.ToBoolean(Convert.ToInt16(fields[1]));
+                        break;
+
+                    case "18":
+                        slave.DataStore.CoilDiscretes[18] = Convert.ToBoolean(Convert.ToInt16(fields[1]));
                         break;
 
                     case "40001":
