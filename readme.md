@@ -34,18 +34,24 @@ You can now read and write Modbus using this simulation in Modbus clients like [
 
 ![alt tag](img/simulation.jpg)
 
-## Alter behaviour
+## Alter the behaviour of your simulation
 
 When running the application, you can alter the values of the simulation.
 
 Just enter:
 
-* 1 0 (switch to false)
-* 1 1 (switch to true)
-* 2 0 (switch to false)
-* 2 2 (switch to true)
+* 1 0 (switch 1 to false)
+* 1 1 (switch 1 to true)
+* 2 0 (switch 2 to false)
+* 2 1 (switch 2 to true)
+* 17 0 (relay 1 to false)
+* 17 1 (relay 1 to true)
+* 18 0 (relay 2 to false)
+* 18 1 (relay 2 to true)
 * 40001 0-4500 (pick a value between 0 and 4500)
 * 40002 0-4500 (pick a value between 0 and 4500)
+
+*Note*: The relays can not be changed
 
 ## NModbus4 library
 
@@ -57,5 +63,5 @@ This logic is licenced under the MIT license.
 
 Want to contribute? Throw me a pull request....
 
-Want to know more about me? Check out my [blog](http://blog.vandevelde-online.com)
+Want to know more about me? Check out my [blog](http://blog.vandevelde-online.com).
 
