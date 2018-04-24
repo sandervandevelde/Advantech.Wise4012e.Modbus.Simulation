@@ -8,8 +8,8 @@ It runs a Modbus service at [127.0.0.1] (configurable):
 
 * Switch 1 on Discrete coil 1 (read/write) 0 or 1
 * Switch 2 on Discrete coil 2 (read/write) 0 or 1
-* Relay 1 on Discrete coil 17 (read) 0 or 1
-* Relay 2 on Discrete coil 18 (read) 0 or 1
+* Relay 1 on Discrete coil 17 (read/write) 0 or 1
+* Relay 2 on Discrete coil 18 (read/write) 0 or 1
 * Knob 1 on Holding Register 40001 (read/write) 0 - 4500
 * Knob 2 on Holding Register 40002 (read/write) 0 - 4500 
 
