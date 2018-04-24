@@ -44,7 +44,7 @@ namespace Advantech.Wise4012e.Modbus.SimulationApp
             slave.DataStore.CoilDiscretes[17] = false;
             slave.DataStore.CoilDiscretes[18] = false;
 
-            slave.Listen();
+            slave.ListenAsync().Wait();
 
             Console.WriteLine($"Slave {SlaveID} supports switch 1, switch 2, relay 17, relay 18, knob 40001, knob 40002");
 
