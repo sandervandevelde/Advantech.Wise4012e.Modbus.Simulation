@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advantech.Wise4012e.Modbus.SimulationApp", "Advantech.Wise4012e.Modbus.SimulationApp\Advantech.Wise4012e.Modbus.SimulationApp.csproj", "{76C77C3F-D318-41C8-9194-B23D1FE14684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C77C3F-D318-41C8-9194-B23D1FE14684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C77C3F-D318-41C8-9194-B23D1FE14684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C77C3F-D318-41C8-9194-B23D1FE14684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C77C3F-D318-41C8-9194-B23D1FE14684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C0AA3D7-CA26-4D1D-9686-86F64475246D}
+	EndGlobalSection
+EndGlobal
