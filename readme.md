@@ -1,4 +1,4 @@
-﻿# Advantech Wise4012e Modbus Simulation
+# Advantech Wise4012e Modbus Simulation
 
 Application which simulates an Advantech Wise 4012e IO module. The application is written in .Net Core.
 
@@ -33,6 +33,10 @@ Just enter:
 * 2 2 (switch to true)
 * 40001 0-4500 (pick a value between 0 and 4500)
 * 40002 0-4500 (pick a value between 0 and 4500)
+
+## NModbus4 library
+
+This simulation is making use of the Nuget package [NModbus4](https://github.com/NModbus4/NModbus4). Great work!
 
 ## Contribute
 
