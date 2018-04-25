@@ -34,6 +34,17 @@ You can now read and write Modbus using this simulation in Modbus clients like [
 
 ![alt tag](img/simulation.jpg)
 
+## IoT Edge Microsoft Modbus Module
+
+It is confirmed this simulation can be used together with the [Microsoft Azure IoT Edge Modbus Module](https://hub.docker.com/r/microsoft/azureiotedge-modbus-tcp/)
+
+To get it working:
+
+1. Change in the settings file the '127.0.0.1' into your local IP address
+2. Start the app
+3. Confirm address in the firewall for this app and port
+4. Use this IP address in the Module Twin of the Modbus module 
+
 ## Alter the behaviour of your simulation
 
 When running the application, you can alter the values of the simulation.
