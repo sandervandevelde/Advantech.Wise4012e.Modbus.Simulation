@@ -45,6 +45,64 @@ To get it working:
 3. Confirm address in the firewall for this app and port
 4. Use this IP address in the Module Twin of the Modbus module 
 
+The configuration of the device twin will look like:
+
+    ...
+    "desired": {
+      "PublishInterval": "5000",
+      "SlaveConfigs": {
+        "Slave01": {
+          "SlaveConnection": "[IP address of localhost]",
+          "HwId": "Wise4012E-142ext",
+          "Operations": {
+            "Op01": {
+              "PollingInterval": "5000",
+              "UnitId": "1",
+              "StartAddress": "40001",
+              "Count": "1",
+              "DisplayName": "KnobOne"
+            },
+            "Op02": {
+              "PollingInterval": "5000",
+              "UnitId": "1",
+              "StartAddress": "40002",
+              "Count": "1",
+              "DisplayName": "KnobTwo"
+            },
+            "Op03": {
+              "PollingInterval": "5000",
+              "UnitId": "1",
+              "StartAddress": "00001",
+              "Count": "1",
+              "DisplayName": "SwitchOne"
+            },
+            "Op04": {
+              "PollingInterval": "5000",
+              "UnitId": "1",
+              "StartAddress": "00002",
+              "Count": "1",
+              "DisplayName": "SwitchTwo"
+            },
+            "Op05": {
+              "PollingInterval": "5000",
+              "UnitId": "1",
+              "StartAddress": "00017",
+              "Count": "1",
+              "DisplayName": "RelayOne"
+            },
+            "Op06": {
+              "PollingInterval": "5000",
+              "UnitId": "1",
+              "StartAddress": "00018",
+              "Count": "1",
+              "DisplayName": "RelayTwo"
+            }
+          }
+        }
+      },
+      "$metadata": {
+      ...
+
 ## Alter the behaviour of your simulation
 
 When running the application, you can alter the values of the simulation.
