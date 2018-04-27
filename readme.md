@@ -15,20 +15,23 @@ It runs a Modbus service at [127.0.0.1] (configurable):
 
 ## Usage
 
+This is a .Net Core application.
+
 Compile and run this application in [Visual studio Code](https://code.visualstudio.com/).
 
-This is a .Net Core application so be aware of the following steps:
+Execute the following steps:
 
-1. Open the solution in VS Code. Accept any suggestions regarding debugger and packages.
-2. Compile the application
+1. Install [.Net Core](https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.105-windows-x64-installer).
+1. Open the folder of the project in VS Code. Select 'program.cs'. Accept any suggestions regarding debugger and packages.
+1. Compile the application
 
     *Note*: the Debug Console is read-only. We will need to rus the app outside VS Code.
 
-3. Go to \bin\Debug\netcoreapp2.0 folder where you will find the \bin\Debug\netcoreapp2.0\Advantech.Wise4012e.Modbus.SimulationApp.dll
+1. Go to \bin\Debug\netcoreapp2.0 folder of the project. Here you will find the \bin\Debug\netcoreapp2.0\Advantech.Wise4012e.Modbus.SimulationApp.dll
 
     *Note*: Do not expect an executable.
 
-4. run the dll using the command 'dotnet Advantech.Wise4012e.Modbus.SimulationApp.dll'.
+1. run the dll on the command line using the command 'dotnet Advantech.Wise4012e.Modbus.SimulationApp.dll'.
 
 You can now read and write Modbus using this simulation in Modbus clients like [CAS Modbus Scanner](http://store.chipkin.com/articles/modbus-scanner-what-is-the-cas-modbus-scanner) or [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/deploy-modbus-gateway).
 
