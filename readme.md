@@ -21,7 +21,7 @@ Compile and run this application in [Visual studio Code](https://code.visualstud
 
 Execute the following steps:
 
-1. Install [.Net Core](https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.105-windows-x64-installer).
+1. Install [.Net Core SDK](https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.105-windows-x64-installer).
 1. Open the folder of the project in VS Code. Select 'program.cs'. Accept any suggestions regarding debugger and packages.
 1. Compile the application
 
