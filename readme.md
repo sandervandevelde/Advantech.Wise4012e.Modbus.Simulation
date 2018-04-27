@@ -55,7 +55,7 @@ The configuration of the device twin will look like:
       "PublishInterval": "5000",
       "SlaveConfigs": {
         "Slave01": {
-          "SlaveConnection": "[IP address of localhost]",
+          "SlaveConnection": "[IP address in settings.json]",
           "HwId": "Wise4012E-142ext",
           "Operations": {
             "Op01": {
