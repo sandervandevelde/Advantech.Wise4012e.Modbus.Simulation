@@ -43,10 +43,10 @@ It is confirmed this simulation can be used together with the [Microsoft Azure I
 
 To get it working:
 
-1. Change in the settings file the '127.0.0.1' into your local IP address
-2. Start the app
-3. Confirm address in the firewall for this app and port
-4. Use this IP address in the Module Twin of the Modbus module 
+1. Go to 'settings.json' and replace the localhost address by your specific local IP Address (you can look it up using 'ipconfig')
+1. Start the app as described above
+1. Confirm changes to the firewall for this app and port
+1. Use this IP address in the Module Twin of the Modbus module 
 
 The configuration of the device twin will look like:
 
