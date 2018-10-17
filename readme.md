@@ -17,6 +17,10 @@ It runs a Modbus service at [127.0.0.1] (configurable):
 
 This is a .Net Core application.
 
+Select a local folder (eg. c:\dev\) in which the project will be put for execution. (please select a short path to prevent a path with has too many characters).
+
+In Github clone the code or extract is as a ZIP file.
+
 Compile and run this application in [Visual studio Code](https://code.visualstudio.com/).
 
 Execute the following steps:
@@ -25,7 +29,7 @@ Execute the following steps:
 1. Open the folder of the project in VS Code. Select 'program.cs'. Accept any suggestions regarding debugger and packages.
 1. Compile the application
 
-    *Note*: the Debug Console is read-only. We will need to rus the app outside VS Code.
+    *Note*: the Debug Console is read-only. We will need to run the app outside VS Code.
 
 1. Go to \bin\Debug\netcoreapp2.0 folder of the project. Here you will find the \bin\Debug\netcoreapp2.0\Advantech.Wise4012e.Modbus.SimulationApp.dll
 
